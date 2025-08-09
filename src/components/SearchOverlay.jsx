@@ -8,10 +8,10 @@ import babiesModels from '../assets/babies.js'
 import { Link } from "react-router-dom";
 
 const SearchOverlay = ({ isOpen, onClose }) => {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState([]);
-  const overlayRef = useRef(null);
-  const inputRef = useRef(null);
+  const [searchQuery, setSearchQuery] = useState(""); // Search input value
+  const [searchResults, setSearchResults] = useState([]); // Filtered results
+  const overlayRef = useRef(null); // Overlay container ref
+  const inputRef = useRef(null); // search input ref
 
   // Focus input when overlay opens
   useEffect(() => {
