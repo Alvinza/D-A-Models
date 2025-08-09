@@ -7,7 +7,7 @@ const Title = (props) => {
         className="text-center text-gray-900 title"
         style={{ fontFamily: "monospace" }}
       >
-        {props.title}
+        {props.title} {/* Display dynamic title text */}
       </h1>
     </div>
   );
