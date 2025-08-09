@@ -1,9 +1,10 @@
 import React from "react";
 import hero from "../assets/hero.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // navigation hook
 
 const Hero = () => {
   const navigate = useNavigate();
+  // redirects to apply page
   const applyBtn = () => {
     navigate("/apply");
   };
