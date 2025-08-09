@@ -13,6 +13,7 @@ const Women = () => {
               <img
                 src={models.womenPicture}
                 alt={`Model ${models.womenName}`}
+                loading="lazy"
                 className="w-full max-w-xs sm:max-w-sm md:max-w-md cursor-pointer transition-all duration-300 hover:brightness-75"
                 // Using CSS classes instead of inline styles for hover effects
               />
