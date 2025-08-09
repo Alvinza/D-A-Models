@@ -6,14 +6,14 @@ import men5 from '../assets/men5.png';
 import men6 from '../assets/men6.png';
 import men7 from '../assets/men7.png';
 import men8 from '../assets/men8.png';
-import men9 from '../assets/men9.png';
-import men10 from '../assets/men10.png';
-import men11 from '../assets/men11.png';
-import men12 from '../assets/men12.png';
-import men13 from '../assets/men13.png';
-import men14 from '../assets/men14.png';
-import men15 from '../assets/men15.png';
-import men16 from '../assets/men16.png';
+// import men9 from '../assets/men9.png';
+// import men10 from '../assets/men10.png';
+// import men11 from '../assets/men11.png';
+// import men12 from '../assets/men12.png';
+// import men13 from '../assets/men13.png';
+// import men14 from '../assets/men14.png';
+// import men15 from '../assets/men15.png';
+// import men16 from '../assets/men16.png';
 
 const menModel = [
     {
@@ -49,38 +49,7 @@ const menModel = [
         menPicture: men8,
         menName: 'DANIEL L'
     },
-    {
-        menPicture: men9,
-        menName: 'JIERE D'
-    },
-    {
-        menPicture: men10,
-        menName: 'AJ - AMEER'
-    },
-    {
-        menPicture: men11,
-        menName: 'JACQUES W'
-    },
-    {
-        menPicture: men12,
-        menName: 'LESEGO S'
-    },
-    {
-        menPicture: men13,
-        menName: 'MATT S'
-    },
-    {
-        menPicture: men14,
-        menName: 'JORDAN A'
-    },
-    {
-        menPicture: men15,
-        menName: 'KAIDEN J'
-    },
-    {
-        menPicture: men16,
-        menName: 'AZANIA M'
-    },
+   
 ]
 
 export default menModel;
