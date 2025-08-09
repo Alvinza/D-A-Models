@@ -4,15 +4,17 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import searchPic from "../assets/search.png";
-import SearchOverlay from "./SearchOverlay"; // Import the new component
+import SearchOverlay from "./SearchOverlay"; // Search overlay component
 
 function NavBar() {
-  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false); // controls search overlay visibility
 
+  // Open search overlay
   const openSearch = () => {
     setSearchOpen(true);
   };
 
+  // Close search overlay
   const closeSearch = () => {
     setSearchOpen(false);
   };
@@ -34,6 +36,7 @@ function NavBar() {
             id="basic-navbar-nav"
             className="justify-content-between"
           >
+            {/* Left-side navigation */}
             <Nav className="gap-3 flex-wrap">
               <Nav.Link href="/women">WOMEN</Nav.Link>
               <Nav.Link href="/men">MEN</Nav.Link>
@@ -55,6 +58,7 @@ function NavBar() {
               D<span style={{ color: "#F1BC56" }}>&</span>A
             </Navbar.Brand>
 
+            {/* Right-side navigation */}
             <Nav className="gap-3 flex-wrap">
               <NavDropdown title="AGENCY" id="basic-nav-dropdown">
                 <NavDropdown.Item href="/about">About</NavDropdown.Item>
