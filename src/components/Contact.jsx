@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const navigate = useNavigate();
+  // Redirect to Policy page
   const policyBtn = () => {
     navigate("/policy");
   };
