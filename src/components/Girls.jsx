@@ -13,6 +13,7 @@ const Girls = () => {
               <img
                 src={models.girlPicture}
                 alt={models.girlName}
+                loading="lazy"
                 className="h-48 w-40 sm:h-64 sm:w-48 md:h-72 md:w-56 lg:h-80 lg:w-64 object-cover cursor-pointer transition-all duration-300 hover:brightness-75"
               />
               <p className="mt-2 text-center font-medium">{models.girlName}</p>
