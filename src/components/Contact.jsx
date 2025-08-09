@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./Title.jsx";
 import mapPic from "../assets/map.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; // Navigation hook
 
 const Contact = () => {
   const navigate = useNavigate();
