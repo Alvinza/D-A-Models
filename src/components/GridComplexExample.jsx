@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 function GridComplexExample() {
   return (
+    // Main application form container
     <Form className='applyForm rounded p-4'>
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
