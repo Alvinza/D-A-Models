@@ -49,7 +49,7 @@ const Contact = () => {
       </div>
 
       <div className="flex justify-center mt-10">
-        <img src={mapPic} alt="map" className="w-full max-w-[600px] rounded-lg shadow-md" />
+        <img src={mapPic} alt="map" className="w-full max-w-[600px] rounded-lg shadow-md" loading="lazy" />
       </div>
 
       <div className="text-center mt-14 mb-10">
