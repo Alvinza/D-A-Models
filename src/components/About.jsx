@@ -2,10 +2,11 @@ import React from "react";
 import Title from "./Title.jsx";
 import aboutImage from "../assets/about.png";
 import { useNavigate } from "react-router-dom";
-// import CardHolder from "./CardHolder.jsx";
+
 
 const About = () => {
   const navigate = useNavigate();
+  // Redirect to Apply page
   const applyBtn = () => {
     navigate("/apply");
   };
@@ -60,7 +61,6 @@ const About = () => {
           onMouseLeave={(e) => (e.target.style.filter = "brightness(100%)")}
         />
       </div>
-      {/* <CardHolder /> */}
     </div>
   );
 };
