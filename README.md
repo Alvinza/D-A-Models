@@ -34,14 +34,14 @@ A sleek and professional modeling portfolio platform built with React and modern
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
+- Node.js 
 - npm or yarn package manager
 
 ### Installation
 
 1. Clone the repository:
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Alvinza/D-A-Models.git
    cd modeling-website
    ```
 
@@ -69,20 +69,6 @@ A sleek and professional modeling portfolio platform built with React and modern
 4. **Get in Touch**: Visit the contact page for business inquiries
 5. **Mobile Experience**: Enjoy full functionality on any device
 
-## 🌐 Deployment
-
-The application is deployed on Vercel for optimal performance and reliability. To deploy your own version:
-
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-
-2. Deploy to your preferred hosting service:
-   - Vercel (recommended)
-   - Netlify
-   - GitHub Pages
-   - Firebase Hosting
 
 ## 📞 Contact
 
