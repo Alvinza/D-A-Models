@@ -3,13 +3,8 @@ import Title from "./Title.jsx";
 import aboutImage from "../assets/about.png";
 import { useNavigate } from "react-router-dom";
 
-
 const About = () => {
   const navigate = useNavigate();
-  // Redirect to Apply page
-  const applyBtn = () => {
-    navigate("/apply");
-  };
   return (
     <div className="mt-24 md:mt-36 about">
       <Title title={"About"} />
@@ -47,7 +42,7 @@ const About = () => {
           upholding the highest standards of professionalism and ethics in
           everything we do.
         </p>
-        <button onClick={applyBtn} className="btn btn-secondary mb-8">
+        <button onClick={() => navigate("/apply")} className="btn btn-secondary mb-8">
           APPLY NOW
         </button>
       </div>
