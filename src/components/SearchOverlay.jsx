@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import womenModels from "../assets/assets.js";
+import womenModels from "../assets/women.js";
 import menModels from "../assets/men.js";
 import boysModels from "../assets/boys.js";
 import girlsModels from '../assets/girls.js'
