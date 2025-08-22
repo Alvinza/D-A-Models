@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import womenModels from "../assets/women.js";
-import menModels from "../assets/men.js";
-import boysModels from "../assets/boys.js";
-import girlsModels from '../assets/girls.js'
-import kidsModels from '../assets/kids.js'
-import babiesModels from '../assets/babies.js'
+import womenModels from "../assets/women/women.js";
+import menModels from "../assets/men/men.js";
+import boysModels from "../assets/boys/boys.js";
+import girlsModels from '../assets/girls/girls.js'
+import kidsModels from '../assets/kids/kids.js'
+import babiesModels from '../assets/babies/babies.js'
 import { Link } from "react-router-dom";
 
 const SearchOverlay = ({ isOpen, onClose }) => {

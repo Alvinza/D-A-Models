@@ -1,14 +1,11 @@
-import girls1 from '../assets/girls1.png'
-import girls2 from '../assets/girls2.png'
-import girls3 from '../assets/girls3.png'
-import girls4 from '../assets/girls4.png'
-import girls5 from '../assets/girls5.png'
-import girls6 from '../assets/girls6.png'
-import girls7 from '../assets/girls7.png'
-import girls8 from '../assets/girls8.png'
-import girls9 from '../assets/girls9.png'
-import girls10 from '../assets/girls10.png'
-
+import girls1 from './girls1.png'
+import girls2 from './girls2.png'
+import girls3 from './girls3.png'
+import girls4 from './girls4.png'
+import girls5 from './girls5.png'
+import girls6 from './girls6.png'
+import girls7 from './girls7.png'
+import girls8 from './girls8.png'
 
 const girlsModel = [
     {
@@ -43,14 +40,7 @@ const girlsModel = [
         girlPicture: girls8,
         girlName: "LIZA A"
     },
-    {
-        girlPicture: girls9,
-        girlName: "TRACY K"
-    },
-    {
-        girlPicture: girls10,
-        girlName: "JUSTINA V"
-    },
+
 ]
 
 export default girlsModel;

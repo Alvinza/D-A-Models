@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title.jsx";
-import modelInfo from "../assets/babies.js";
+import modelInfo from "../assets/babies/babies.js";
 
 const Babies = () => {
   return (

@@ -1,9 +1,9 @@
-import Carousel from 'react-bootstrap/Carousel';
-import office1 from '../assets/office1.png'
-import office2 from '../assets/office2.png'
-import office3 from '../assets/office3.png'
-import office4 from '../assets/office4.png'
-import office5 from '../assets/office5.png'
+import Carousel from "react-bootstrap/Carousel";
+import office1 from "../assets/office/office1.png";
+import office2 from "../assets/office/office2.png";
+import office3 from "../assets/office/office3.png";
+import office4 from "../assets/office/office4.png";
+import office5 from "../assets/office/office5.png";
 
 function Slider() {
   return (
@@ -18,7 +18,6 @@ function Slider() {
               alt="First slide"
             />
           </div>
-        
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-flex justify-content-center">
@@ -29,7 +28,6 @@ function Slider() {
               alt="Second slide"
             />
           </div>
-         
         </Carousel.Item>
         <Carousel.Item>
           <div className="d-flex justify-content-center">
@@ -62,7 +60,6 @@ function Slider() {
             />
           </div>
         </Carousel.Item>
-
       </Carousel>
     </div>
   );

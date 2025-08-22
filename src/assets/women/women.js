@@ -1,21 +1,21 @@
 // Images
 // women pictures
-import women1 from '../assets/women/women1.png';
-import women2 from '../assets/women/women2.png';
-import women3 from '../assets/women/women3.png';
-import women4 from '../assets/women/women4.png';
-import women5 from '../assets/women/women5.png';
-import women6 from '../assets/women/women6.png';
-import women7 from '../assets/women/women7.png';
-import women8 from '../assets/women/women8.png';
-import women9 from '../assets/women/women9.png';
-import women10 from '../assets/women/women10.png';
-import women11 from '../assets/women/women11.png';
-import women12 from '../assets/women/women12.png';
-import women13 from '../assets/women/women13.png';
-import women14 from '../assets/women/women14.png';
-import women15 from '../assets/women/women15.png';
-import women16 from '../assets/women/women16.png';
+import women1 from './women1.png';
+import women2 from './women2.png';
+import women3 from './women3.png';
+import women4 from './women4.png';
+import women5 from './women5.png';
+import women6 from './women6.png';
+import women7 from './women7.png';
+import women8 from './women8.png';
+import women9 from './women9.png';
+import women10 from './women10.png';
+import women11 from './women11.png';
+import women12 from './women12.png';
+import women13 from './women13.png';
+import women14 from './women14.png';
+import women15 from './women15.png';
+import women16 from './women16.png';
 
 
 const modelPicture = [

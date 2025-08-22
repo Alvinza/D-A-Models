@@ -1,15 +1,12 @@
-import kid1 from '../assets/kids1.png'
-import kid2 from '../assets/kids2.png'
-import kid3 from '../assets/kids3.png'
-import kid4 from '../assets/kids4.png'
-import kid5 from '../assets/kids5.png'
-import kid6 from '../assets/kids6.png'
-import kid7 from '../assets/girls9.png'
-import kid8 from '../assets/kids8.png'
-// import kid9 from '../assets/kids9.png'
-// import kid10 from '../assets/kids10.png'
-// import kid11 from '../assets/kids11.png'
-// import kid12 from '../assets/kids12.png'
+import kid1 from './kids1.png'
+import kid2 from './kids2.png'
+import kid3 from './kids3.png'
+import kid4 from './kids4.png'
+import kid5 from './kids5.png'
+import kid6 from './kids6.png'
+import kid7 from './kids7.png'
+import kid8 from './kids8.png'
+
 
 const kidsModel = [
     {
