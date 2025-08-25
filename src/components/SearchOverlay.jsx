@@ -1,3 +1,9 @@
+/**
+ * SearchOverlay Component
+ * Provides a full-screen search overlay with dynamic filtering across multiple model categories.
+ * Implements keyboard, click-outside handling, and responsive result display.
+ */
+
 import React, { useState, useEffect, useRef } from "react";
 import womenModels from "../assets/women/women.js";
 import menModels from "../assets/men/men.js";
