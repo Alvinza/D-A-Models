@@ -1,5 +1,4 @@
 /**
- * Hero Component
  * Implements a fullscreen hero slider with automatic transitions, navigation dots, and a call-to-action button.
  * Demonstrates use of useState, useEffect, and programmatic navigation in React.
  */
