@@ -1,15 +1,18 @@
 import React from "react";
 import Title from "./Title.jsx";
-import modelInfo from "../assets/babies/babies.js";
+import modelInfo from "../assets/babies/babies.js"; // babies data
 
 const Babies = () => {
   return (
     <div className="mt-36 px-4">
       <Title title={"Babies"} />
+      
+      {/* Responsive grid layout for displaying baby models */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-6">
         {modelInfo.map((models, index) => {
           return (
             <div key={index} className="flex flex-col items-center">
+               {/* Lazy loading images for performance optimization */}
               <img
                 src={models.babyPicture}
                 alt={models.babyName}
