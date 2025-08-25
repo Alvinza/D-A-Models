@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 
 const SearchOverlay = ({ isOpen, onClose }) => {
   const [searchQuery, setSearchQuery] = useState(""); // Search input value
-  const [searchResults, setSearchResults] = useState([]); // Filtered results
-  const overlayRef = useRef(null); // Overlay container ref
+  const [searchResults, setSearchResults] = useState([]); // Filtered search results
+  const overlayRef = useRef(null); // Ref to detect outside clicks
   const inputRef = useRef(null); // search input ref
 
   // Focus input when overlay opens
@@ -54,7 +54,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
     };
   }, [isOpen, onClose]);
 
-  // Search function
+   // Filter models by search query across all categories
   const handleSearch = (query) => {
     setSearchQuery(query);
     
@@ -128,6 +128,7 @@ const SearchOverlay = ({ isOpen, onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-slate-950 bg-opacity-80 z-50 flex items-center justify-center p-4">
+      {/* Overlay container */}
       <div 
         ref={overlayRef}
         className="bg-white rounded-lg shadow-xl w-full max-w-3xl max-h-[90vh] overflow-hidden flex flex-col"
@@ -159,7 +160,8 @@ const SearchOverlay = ({ isOpen, onClose }) => {
             </button>
           </div>
         </div>
-        
+
+        {/* Search results container */}
         <div className="overflow-y-auto p-4 flex-1">
           {searchResults.length === 0 && searchQuery.trim() !== "" ? (
             <p className="text-center text-gray-500 py-8">No models found matching "{searchQuery}"</p>
