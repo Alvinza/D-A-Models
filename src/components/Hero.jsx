@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Apply Button OUTSIDE the hero */}
+      {/* Call-to-action button below the hero slider */}
       <div className="py-6 text-center">
         <button
           onClick={applyBtn}
