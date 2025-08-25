@@ -6,7 +6,9 @@ import Slider from "./Slider";
 function Apply() {
   return (
     <div className="mt-36 container">
+      {/* Reusable Title component for consistent page headers */}
       <Title title={"Apply"} />
+      {/* Section providing instructions and context for applicants */}
       <div className="applyText text-center container mx-auto max-w-2xl px-4">
         <p>
           At D&A, we take pride in diversity, and wholeheartedly support the
@@ -24,11 +26,13 @@ function Apply() {
         </p>
         <p>Good Luck.</p>
       </div>
+      {/* Grid component to display application form  */}
       <div className="text-center container mx-auto max-w-4xl px-4 mt-10">
         <div className="md:ml-30">
             <GridComplexExample />
         </div>
       </div>
+      {/* Slider section showcasing dynamic content  */}
       <div className="slider p-4 md:p-10 lg:p-20 mt-14">
         <Slider />
       </div>
