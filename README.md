@@ -9,6 +9,11 @@ A sleek and professional modeling portfolio platform built with React and modern
 ## ✨ Features
 
 - **Dynamic Hero Section**: Eye-catching landing page with prominent apply button
+- **Hero Image Slider**: A dynamic image slider on the homepage that:
+  - Automatically changes images every 4 seconds
+  - Includes smooth transitions for a modern feel
+  - Provides navigation dots for manual control
+
 - **Category Navigation**: Organized model portfolios across multiple categories:
   - Men's Portfolio
   - Women's Portfolio  
