@@ -86,4 +86,4 @@ For business inquiries, collaborations, or technical questions:
 
 ---
 
-**Discover exceptional talent and build your next project! 📸**
+**Discover exceptional talent and build your next project! **
