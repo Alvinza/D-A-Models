@@ -52,7 +52,7 @@ const About = () => {
           alt="D&A Models"
           className="w-full h-auto"
           style={{ transition: "filter 0.3s ease", cursor: "pointer" }}
-          onMouseEnter={(e) => (e.target.style.filter = "brightness(80%)")}
+          onMouseEnter={(e) => (e.target.style.filter = "brightness(70%)")}
           onMouseLeave={(e) => (e.target.style.filter = "brightness(100%)")}
         />
       </div>
