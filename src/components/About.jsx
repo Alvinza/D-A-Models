@@ -42,7 +42,9 @@ const About = () => {
           upholding the highest standards of professionalism and ethics in
           everything we do.
         </p>
-        <button onClick={() => navigate("/apply")} className="btn btn-secondary mb-8">
+        <button onClick={() => navigate("/apply")} className="btn btn-secondary mb-8"  
+          aria-label="Apply to become a model"
+        >
           APPLY NOW
         </button>
       </div>
