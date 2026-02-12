@@ -53,7 +53,7 @@ const About = () => {
           src={aboutImage}
           alt="D&A Models agency team and talent"
           className="w-full h-auto"
-          style={{ transition: "filter 0.3s ease", cursor: "pointer" }}
+          style={{ transition: "filter 0.3s ease, transform 0.3s ease", cursor: "pointer" }}
           onMouseEnter={(e) => {
             e.target.style.filter = "brightness(70%)";
             e.target.style.transform = "scale(1.02)";
